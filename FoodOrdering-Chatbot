@@ -1,0 +1,23 @@
+# FoodOrdering Chatbot 🍽🤖
+A serverless FoodOrdering chatbot built using  Amazon Lex, and DynamoDB to take and manage food orders efficiently. This project demonstrates how to implement a natural language processing (NLP) bot for restaurant ordering systems.
+
+## 🚀 Features
+- **Natural Language Understanding:** Built with Amazon Lex for handling customer interactions.
+- **Order Management:** Uses DynamoDB to store and manage order details.
+- **Serverless Architecture:** Fully serverless solution using AWS Lambda for backend logic.
+- **API Integration:** Integrated with external payment gateways and notification services (e.g., Amazon SNS).
+- **Scalability:** Designed with AWS Lambda and API Gateway to scale on-demand.
+
+## 🛠 Technologies Used
+- **AWS Lambda** for running serverless functions.
+- **Amazon Lex** for building the chatbot’s natural language interface.
+- **Amazon DynamoDB** for storing order and user data.
+- **API Gateway** for exposing endpoints to the chatbot and front-end.
+
+
+## 💡 How It Works
+- Users interact with the chatbot by placing food orders.
+- The chatbot handles queries like "What’s on the menu?" or "I’d like to order a pizza."
+- The backend, powered by AWS Lambda, processes the orders and stores them in DynamoDB.
+- After the order is processed, the chatbot sends a confirmation message and notifies the user.
+
